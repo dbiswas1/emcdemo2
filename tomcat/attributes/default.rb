@@ -16,7 +16,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-default['tomcat']['base_version'] = 6
+default['tomcat']['base_version'] = 7
 default['tomcat']['base_instance'] = "tomcat#{node['tomcat']['base_version']}"
 default['tomcat']['port'] = 8080
 default['tomcat']['proxy_port'] = nil
